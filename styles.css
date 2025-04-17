@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9; /* Light off-white background for the body */
+    color: #333; /* Dark text color for readability */
+}
+
+.navbar {
+    background-color: #2E8B57; /* Green color for the navbar, representing agriculture */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #4CAF50; /* Lighter green for hover effect */
+    border-radius: 5px;
+}
+
+/* Home Section */
+header {
+    background-color: #6DBE45; /* Lighter green for the header section */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* Features Section */
+#features {
+    background-color: #ffffff; /* White background for feature section */
+    padding: 40px 20px;
+}
+
+#features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2E8B57; /* Matching green color */
+}
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #f0f8f0; /* Light greenish background for each feature box */
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature a {
+    text-decoration: none;
+    color: #333;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2E8B57; /* Green color for the title */
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #555; /* Slightly darker color for the paragraph */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2E8B57; /* Matching green footer */
+    color: white;
+}
+
+/* Button styles for clickable links */
+button {
+    background-color: #2E8B57; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Lighter green for hover effect */
+}
